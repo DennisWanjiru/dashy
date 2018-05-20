@@ -13,7 +13,41 @@
   <div class="container">
     <div class="main">
       <header class="header">
-        <nav class="nav">Navigation</nav>
+        <nav class="nav">
+          <div class="nav__item">
+            <svg class="nav__icon">
+              <use xlink:href="assets/icons/sprite.svg#icon-list"></use>
+            </svg>
+
+            <svg class="nav__icon">
+              <use xlink:href="assets/icons/sprite.svg#icon-search"></use>
+            </svg>
+          </div>
+          <div class="nav__item">
+            <div class="nav__item--link">
+              <svg class="nav__icon">
+                <use xlink:href="assets/icons/sprite.svg#icon-mail"></use>
+              </svg>
+              <div class="nav__notification">
+                <span>5796</span>
+              </div>
+            </div>
+
+            <div class="nav__item--link">
+              <svg class="nav__icon">
+                <use xlink:href="assets/icons/sprite.svg#icon-bell"></use>
+              </svg>
+              <div class="nav__notification">
+                9
+              </div>
+            </div>
+
+            <div class="user">
+              <img src="assets/images/user.jpg" alt="User" class="user__avatar">
+              <span>John Doe</span>
+            </div>
+          </div>
+        </nav>
       </header>
       <main class="content">
         Content
